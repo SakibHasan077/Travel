@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: none; */
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+:root {
+  --primary-color: #ff5400;
+  --header-color: #131318;
+  --nav-menu-color: #424247;
+  --white: #fff;
+  --tour-paragraph-color: #131318b3;
+  --why_choose_para-color: #5a5a5d;
+  --footer-and-subscribe-input-bg: #1313180d;
+}
