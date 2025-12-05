@@ -87,6 +87,62 @@ header nav .menu .menu_icon .box {
   background-color: black;
   margin-bottom: 0.4rem;
 }
+/* * banner  */
+.banner_container {
+  height: 44.6rem;
+  margin-top: 4rem;
+  background-image:
+    linear-gradient(180deg, rgb(19 19 24 / 80%) 0%, rgb(19 19 24 / 0%) 100%),
+    url(./image/Group\ 13\ \(1\)\ \(1\).png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.banner_container h1 {
+  color: var(--white);
+  font-size: 6.4rem;
+  margin: 4.288rem 0;
+}
+.banner_container p {
+  color: var(--white);
+  font-size: 1.6rem;
+  margin: -10rem 0 1.6rem;
+  padding: 1rem 20.65rem;
+  text-align: center;
+  line-height: 2;
+}
+.banner_container form {
+  display: flex;
+  gap: 5rem;
+  background-color: #ffffff71;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: -5rem;
+}
+.banner_container form input,
+select,
+button {
+  width: 13rem;
+  border: 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  &:focus {
+    outline-color: var(--primary-color);
+  }
+}
+.banner_container form select {
+  color: var(--nav-menu-color);
+}
+.banner_container form button {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+/** End banner section */
 /* Header Section */
 /* Media Query */
 @media (max-width: 1200px) {
@@ -124,8 +180,27 @@ header nav .menu .menu_icon .box {
     margin: 2rem 0;
     padding-left: 4rem;
   }
-
   /* end nav  */
+  .banner_container {
+    margin-top: 3rem;
+  }
+  .banner_container h1 {
+    font-size: 5rem;
+    margin: 3.6rem 0;
+  }
+  .banner_container p {
+    font-size: 1.4rem;
+    margin: -9rem 0 1.6rem;
+    padding: 1rem 16.65rem;
+    text-align: center;
+    line-height: 2;
+  }
+  .banner_container form {
+    gap: 3rem;
+    padding: 1rem;
+    margin-top: -5rem;
+  }
+  /* End banner  */
 }
 @media (max-width: 768px) {
   header nav {
@@ -162,6 +237,34 @@ header nav .menu .menu_icon .box {
     margin-bottom: 0.4rem;
   }
   /* nav end  */
+  .banner_container {
+    height: 50rem;
+    width: 100%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+  .banner_container h1 {
+    font-size: 3.5rem;
+    margin: 2.5rem 0;
+  }
+  .banner_container p {
+    font-size: 1.3rem;
+    margin: -4rem 0 1.28rem;
+    padding: 0rem 8.5rem;
+  }
+  .banner_container form {
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 55%;
+    margin-top: -2rem;
+  }
+  .banner_container form input,
+  select,
+  button {
+    width: 100%;
+    padding: 1.4rem;
+  }
+  /* End banner  */
 }
 @media (max-width: 576px) {
   header nav {
@@ -206,6 +309,33 @@ header nav .menu .menu_icon .box {
     background-color: rgb(110, 108, 108);
     margin-bottom: 0.4rem;
   }
-
   /* nav end  */
+  .banner_container {
+    height: 50rem;
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .banner_container h1 {
+    font-size: 2.88rem;
+    margin: 1.93rem 0;
+  }
+  .banner_container p {
+    font-size: 1.28rem;
+    margin: -4.5rem 0 1.28rem;
+    padding: 0rem 4.5rem;
+  }
+  .banner_container form {
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 70%;
+    margin-top: -2rem;
+  }
+  .banner_container form input,
+  select,
+  button {
+    width: 100%;
+    padding: 1.4rem;
+  }
+  /* End banner  */
 }
