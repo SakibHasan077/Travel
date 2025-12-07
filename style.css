@@ -395,6 +395,26 @@ button {
     padding: 1rem 3rem;
   }
   /* * popularTour End  */
+  .choose_destination {
+    margin-top: 10rem;
+    padding: 0;
+  }
+  .choose_destination h2 {
+    font-size: 3.7rem;
+    margin: 2.6rem;
+  }
+  .choose_destination p {
+    font-size: 1.6rem;
+    padding: 0 6rem;
+  }
+  /* * Image-box */
+  .image_box {
+    gap: 2rem;
+  }
+  .image_box .item {
+    height: 20rem;
+    position: relative;
+  }
 }
 @media (max-width: 768px) {
   header nav {
@@ -477,6 +497,30 @@ button {
     padding-left: 4rem;
   }
   /* * popularTour End  */
+  .choose_destination {
+    margin-top: 10rem;
+    padding: 0;
+  }
+  .choose_destination h2 {
+    font-size: 3.3rem;
+    margin: 2.4rem;
+  }
+  .choose_destination p {
+    font-size: 1.6rem;
+    padding: 0 2rem;
+  }
+  /* * Image-box */
+  .image_box {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  .image_box .item {
+    height: 27rem;
+    position: relative;
+  }
+  .item {
+    grid-column: 1/-1;
+  }
 }
 @media (max-width: 576px) {
   header nav {
@@ -568,4 +612,28 @@ button {
     padding-left: 4rem;
   }
   /* * popularTour End  */
+  .choose_destination {
+    margin-top: 10rem;
+    padding: 0 1.5rem;
+  }
+  .choose_destination h2 {
+    font-size: 2.9rem;
+    margin: 2rem;
+  }
+  .choose_destination p {
+    font-size: 1.6rem;
+    padding: 0;
+  }
+  /* * Image-box */
+  .image_box {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  .image_box .item {
+    height: 20rem;
+    position: relative;
+  }
+  .item {
+    grid-column: 1/-1;
+  }
 }
