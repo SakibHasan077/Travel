@@ -562,6 +562,74 @@ li:nth-of-type(6) {
 }
 /* * subscribe Container  */
 /** main section end  */
+footer {
+  background-color: var(--footer-and-subscribe-input-bg);
+  padding: 7rem 24.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer_logo {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer_logo img {
+  width: 4rem;
+}
+footer .footer_logo p {
+  color: var(--header-color);
+  font-size: 3.52rem;
+  margin: 2.349rem 0;
+  font-weight: 800;
+}
+footer .footer_logo span {
+  color: var(--primary-color);
+}
+footer .footer_content {
+  color: var(--why_choose_para-color);
+  font-size: 1.6rem;
+  margin: 0.2rem 0 1.5rem;
+  padding: 0 2rem;
+  text-align: center;
+  line-height: 1.5;
+}
+footer .social_icon {
+  display: flex;
+  gap: 3.2rem;
+  margin: 3rem 0;
+  align-items: center;
+  justify-content: center;
+}
+footer .social_icon img:nth-of-type(1) {
+  width: 2.7rem;
+  height: 2.7rem;
+}
+footer .social_icon img:nth-of-type(2) {
+  width: 2.7rem;
+  height: 2.7rem;
+}
+footer .social_icon img:nth-of-type(3) {
+  width: 2.7rem;
+  height: 2.7rem;
+}
+footer .social_icon img:nth-of-type(4) {
+  width: 2.7rem;
+  height: 2.7rem;
+}
+footer .footer_hr {
+  margin: 0.8rem 0;
+  /* color: red; */
+  color: rgb(19 19 24 / 10%);
+  width: 100%;
+}
+footer .footer_last_item {
+  color: var(--why_choose_para-color);
+  font-size: 1.6rem;
+  margin: 3rem 0;
+}
 /* Media Query */
 @media (max-width: 1200px) {
   .popularTour {
@@ -794,6 +862,11 @@ li:nth-of-type(6) {
   }
 
   /**  subscribe container  */
+  /* * footer section  */
+  footer {
+    padding: 7rem 13.6rem;
+  }
+  /* * footer section  */
 }
 @media (max-width: 768px) {
   header nav {
@@ -987,6 +1060,23 @@ li:nth-of-type(6) {
   }
 
   /**  subscribe container  */
+  /** footer section  */
+  footer {
+    padding: 2.6rem;
+  }
+  footer .footer_logo p {
+    font-size: 3rem;
+  }
+  footer .footer_logo img {
+    width: 3.7rem;
+  }
+  footer .social_icon {
+    margin: 2rem 0;
+  }
+  footer .footer_last_item {
+    margin: 2rem 0;
+  }
+  /** footer section  */
 }
 @media (max-width: 576px) {
   header nav {
@@ -1205,4 +1295,21 @@ li:nth-of-type(6) {
 
   /**  subscribe container  */
   /* main section end  */
+  /** footer section  */
+  footer {
+    padding: 1.6rem;
+  }
+  footer .footer_logo p {
+    font-size: 2.5rem;
+  }
+  footer .footer_logo img {
+    width: 3.5rem;
+  }
+  footer .social_icon {
+    margin: 2rem 0;
+  }
+  footer .footer_last_item {
+    margin: 2rem 0;
+  }
+  /** footer section  */
 }
